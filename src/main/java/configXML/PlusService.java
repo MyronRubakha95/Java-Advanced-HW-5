@@ -1,6 +1,7 @@
-package ConfigJava;
+package configXML;
 
-public class PlusService implements Plus{
+public class PlusService {
+
     public int add(int a, int b) {
         return a + b;
     }

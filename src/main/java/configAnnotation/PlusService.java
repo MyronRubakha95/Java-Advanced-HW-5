@@ -1,9 +1,9 @@
-package ConfigAnnotation;
+package configAnnotation;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class PlusService implements Plus{
+public class PlusService implements Plus {
     public int add(int a, int b) {
         return a + b;
     }

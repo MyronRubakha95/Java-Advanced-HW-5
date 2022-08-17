@@ -1,7 +1,5 @@
-package ConfigXML;
+package configXML;
 
 public interface Plus {
     int add(int a, int b);
-
-
 }

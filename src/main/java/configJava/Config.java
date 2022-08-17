@@ -1,4 +1,4 @@
-package ConfigJava;
+package configJava;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,15 +7,17 @@ import org.springframework.context.annotation.Configuration;
 public class Config {
 
     @Bean
-    public PlusService plusService(){
+    public PlusService plusService() {
         return new PlusService();
     }
+
     @Bean
-    public MinusService minusService(){
+    public MinusService minusService() {
         return new MinusService();
     }
+
     @Bean
-    public Calculator calculator(){
+    public Calculator calculator() {
         return new Calculator(plusService(), minusService());
     }
 }
